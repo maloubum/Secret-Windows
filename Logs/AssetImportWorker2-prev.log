@@ -1,0 +1,222 @@
+Unity Editor version:    2020.3.22f1 (e1a7f79fd887)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49705
+Successfully changed project path to: /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april
+/Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 84.32 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.52 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path /Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-16 21:15:02.963 Unity[2712:43122] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2022-05-16 21:15:02.963 Unity[2712:43122] Metal devices available: 2
+2022-05-16 21:15:02.963 Unity[2712:43122] 0: NVIDIA GeForce GT 750M (high power)
+2022-05-16 21:15:02.963 Unity[2712:43122] 1: Intel Iris Pro Graphics (low power)
+2022-05-16 21:15:02.963 Unity[2712:43122] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000874 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 54.11 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.59 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3021ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.70 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <664162e2bf7f40388b13ee61d1693ae2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets/XR/Loaders/Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Creating resource folder...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 21)
+
+Obtained 53 stack frames.
+#0  0x0000010931192a in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::operator=(core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> > const&)
+#1  0x00000109316aea in core::function_ref<void (SourceAssetDBWriteTxn&)>::function_ref<SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_2, (void*)0>(SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_2&&)::'lambda'(void*, SourceAssetDBWriteTxn&)::__invoke(void*, SourceAssetDBWriteTxn&)
+#2  0x00000109339c99 in LMDB_Transaction::Run(core::function_ref<void (LMDB_Transaction&)>)
+#3  0x0000010933edfe in SourceAssetDBWriteTxn::Run(core::function_ref<void (SourceAssetDBWriteTxn&)>)
+#4  0x0000010930b9b3 in SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)
+#5  0x000001092b441b in Scan(ScanFilter const&)
+#6  0x000001092b42e9 in ImportAtPathV2(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
+#7  0x000001092039f9 in AssetDatabase::ImportAtPath(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
+#8  0x000001092b47fa in CreateFolderV2(core::basic_string<char, core::StringStorageDefault<char> > const&)
+#9  0x0000010992cf4f in AssetDatabaseBindings::CreateFolder(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#10 0x000001099c8c98 in AssetDatabase_CUSTOM_CreateFolder(ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeStringPtrOpaque*)
+#11 0x0000015cb3c5a5 in  (wrapper managed-to-native) UnityEditor.AssetDatabase:CreateFolder (string,string) {0x7fd098314990} + 0x65 (0x15cb3c540 0x15cb3c635) [0x155d49960 - Unity Child Domain]
+#12 0x000001556502ab in mono_jit_runtime_invoke
+#13 0x000001557ee2b3 in do_runtime_invoke
+#14 0x000001557eaa3e in mono_runtime_class_init_full
+#15 0x000001557a5e24 in ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+#16 0x00000158fa5656 in  (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr) {0x7fd092c0c928} + 0x56 (0x158fa5600 0x158fa56dd) [0x155d49960 - Unity Child Domain]
+#17 0x0000015884a601 in  (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr) {0x7fd0969baaa8} + 0x81 (0x15884a580 0x15884a67b) [0x155d49960 - Unity Child Domain]
+#18 0x000001556502ab in mono_jit_runtime_invoke
+#19 0x000001557ee2b3 in do_runtime_invoke
+#20 0x000001557ee20d in mono_runtime_invoke
+#21 0x000001078f81f7 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#22 0x000001078f1200 in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#23 0x00000105d2df7d in Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+#24 0x000001078827aa in MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+#25 0x00000107884f78 in MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+#26 0x00000107882eac in MonoManager::ReloadAssembly()
+#27 0x00000108dcbae0 in LoadDomainAndUserAssemblies(bool)
+#28 0x00000108dce49f in LoadUserAssemblies()
+#29 0x0000010857386e in Application::InitializeProject()
+#30 0x0000010a7f41ad in -[EditorApplication applicationDidFinishLaunching:]
+#31 0x007fff205a3a53 in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#32 0x007fff2063f4d9 in ___CFXRegistrationPost_block_invoke
+#33 0x007fff2063f454 in _CFXRegistrationPost
+#34 0x007fff20574cce in _CFXNotificationPost
+#35 0x007fff212e6bb8 in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#36 0x007fff22dbe440 in -[NSApplication _postDidFinishNotification]
+#37 0x007fff22dbe192 in -[NSApplication _sendFinishLaunchingNotification]
+#38 0x007fff22dbb331 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#39 0x007fff22dbaf87 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#40 0x007fff21312306 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#41 0x007fff21312176 in _NSAppleEventManagerGenericHandler
+#42 0x007fff2638e7f3 in _AppleEventsCheckInAppWithBlock
+#43 0x007fff2638df0e in _AppleEventsCheckInAppWithBlock
+#44 0x007fff26386c23 in aeProcessAppleEvent
+#45 0x007fff28806012 in AEProcessAppleEvent
+#46 0x007fff22db5610 in _DPSNextEvent
+#47 0x007fff22db3945 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#48 0x007fff22da5c69 in -[NSApplication run]
+#49 0x007fff22d79e6c in NSApplicationMain
+#50 0x0000010a82f3a6 in EditorMain(int, char const**)
+#51 0x0000010a82f5d9 in main
+#52 0x007fff204d1f3d in start
