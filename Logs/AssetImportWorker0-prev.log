@@ -22,62 +22,62 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49705
+50213
 Successfully changed project path to: /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april
 /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 727.78 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 39.90 ms.
+Refreshing native plugins compatible for Editor in 244.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 5.80 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path /Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/test/Desktop/AUGMENTED REALITY/secret windows/gpsstation_GIT_april/gpsstation_GIT_april/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-16 21:10:56.587 Unity[2677:40737] Color LCD preferred device: Intel Iris Pro Graphics (low power)
-2022-05-16 21:10:56.587 Unity[2677:40737] Metal devices available: 2
-2022-05-16 21:10:56.587 Unity[2677:40737] 0: NVIDIA GeForce GT 750M (high power)
-2022-05-16 21:10:56.587 Unity[2677:40737] 1: Intel Iris Pro Graphics (low power)
-2022-05-16 21:10:56.587 Unity[2677:40737] Using device NVIDIA GeForce GT 750M (high power)
+2022-05-19 09:51:46.552 Unity[2521:46427] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2022-05-19 09:51:46.552 Unity[2521:46427] Metal devices available: 2
+2022-05-19 09:51:46.552 Unity[2521:46427] 0: NVIDIA GeForce GT 750M (high power)
+2022-05-19 09:51:46.552 Unity[2521:46427] 1: Intel Iris Pro Graphics (low power)
+2022-05-19 09:51:46.552 Unity[2521:46427] Using device NVIDIA GeForce GT 750M (high power)
 Initializing Metal device caps: NVIDIA GeForce GT 750M
 Initialize mono
 Mono path[0] = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56677
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56521
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Volumes/bearbumbum/unity/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.039076 seconds.
+Registered in 0.027808 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.63 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 2.62 ms.
+Refreshing native plugins compatible for Editor in 69.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 3.41 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.045 seconds
+- Completed reload, in  5.270 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4046ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (5270ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016389 seconds.
+Registered in 0.032831 seconds.
