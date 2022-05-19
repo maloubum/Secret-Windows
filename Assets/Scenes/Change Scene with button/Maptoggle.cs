@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Maptoggle : MonoBehaviour
+public class MapToggle : MonoBehaviour
 {
-    public GameObject mapbutton; 
-    public void toggle() {
-        mapbutton.SetActive(true);
-        }
+    public GameObject mapImage;
+
+    public void Toggle() {        
+        mapImage.SetActive(!mapImage.activeSelf);
+    }
 
 
 }
