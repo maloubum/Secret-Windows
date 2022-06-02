@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Change Scene with button/ARscene.unity
     guid: 13d72d1a6be05468db01d5c00862f714
+  - enabled: 1
+    path: Assets/Scenes/station3/station3.unity
+    guid: 4e480191b0efc4c61b380b086a1899b4
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
